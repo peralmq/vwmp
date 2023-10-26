@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <script src="./htmx.min.js"></script>
+    </head>
+    <body>
+        <h1>Recept</h1>
+        <input type="button" hx-get="./hello-world.json" value="Click Me" hx-target="#results">
+        <div id="results"></div>
+
+        <input type="button" hx-get="https://docs.google.com/spreadsheets/d/e/2PACX-1vSflIdd66CaW9ZOLw-WU6KhxQyYnr8rqvR6G6SuYruOAoobw_8y6916JBxRp7LN5iZKbukNvB348FHa/pub?gid=0&single=true&output=csv" value="Hämta recept från Google Sheets" hx-target="#recipes">
+        <div id="recipes"></div>
+        
+
+    </body>
+</html>
