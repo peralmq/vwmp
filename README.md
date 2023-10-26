@@ -20,3 +20,6 @@ pnpm run build
 
 You can preview the production build with `npm run preview`.
 
+## Deploying
+Push changes to the `main` branch and the GitHub Action [gh-pages.yml](./.github/workflows/gh-pages.yml) will build and deploy everything.
+
