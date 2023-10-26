@@ -23,24 +23,23 @@ onMount(async () => {
 
 </script>
 
+<svelte:head>
+    <title>Vegan Weekly Meal Planner</title>
+</svelte:head>
+
 <main>
+
 <h1>Vegan Weekly Meal Planner</h1>
 
-<!-- <button on:click={() => fetchingRecipes = fetchRecipes()} >
-    Fetch Recipes
-</button> -->
-
-
-
 {#await fetchRecipes()}
-    <p>...fetching recipes</p>
+    <p>Fetching recipes...</p>
 {:then recipes}
 {#each recipes as recipe}
 <a href={recipe.url}>
     <div class="card">
         <h2>{recipe.name}</h2>
         <p>{recipe['prep-time-in-minutes']} minutes</p>
-        <img src={recipe.image} />
+        <img src={recipe.image} alt={recipe.name} />
     </div>
 </a>
 {/each}
