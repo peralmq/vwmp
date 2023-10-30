@@ -22,6 +22,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"papaparse": "^5.4.1"
+		"papaparse": "^5.4.1",
+		"svelte-google-auth": "^0.7.2"
 	}
 }

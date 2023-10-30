@@ -27,6 +27,8 @@ jobs:
             version: 8
       - run: pnpm install --frozen-lockfile
       - run: pnpm build
+        env:
+          VITE_GOOGLE_OAUTH2_CREDENTIALS: ${{ secrets.VITE_GOOGLE_OAUTH2_CREDENTIALS }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
