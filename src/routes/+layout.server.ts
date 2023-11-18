@@ -1,4 +1,4 @@
-import { hydrateAuth } from 'svelte-google-auth/server';
+import { hydrateAuth } from '@peralmq/svelte-google-auth/server';
 import type { LayoutServerLoad } from './$types.js';
 
 export const load: LayoutServerLoad = ({ locals }) => {

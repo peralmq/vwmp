@@ -5,12 +5,12 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@peralmq/svelte-google-auth':
+    specifier: 0.7.2
+    version: 0.7.2
   papaparse:
     specifier: ^5.4.1
     version: 5.4.1
-  svelte-google-auth:
-    specifier: ^0.7.2
-    version: 0.7.2
 
 devDependencies:
   '@sveltejs/adapter-auto':
@@ -304,6 +304,17 @@ packages:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.15.0
     dev: true
+
+  /@peralmq/svelte-google-auth@0.7.2:
+    resolution: {integrity: sha512-AenctrMC+X6CWLqbXODMY/XBcXuD958/BEKpbYGTvaiZzVnkYppaPezfEfPNCxhXcIN9DUGyjnR2p/3dsTCBbQ==, tarball: https://npm.pkg.github.com/download/@peralmq/svelte-google-auth/0.7.2/4da7f05e9b09a8837a2ae31a4dac4d0a498d79d8}
+    dependencies:
+      cookie: 0.5.0
+      googleapis: 110.0.0
+      jsonwebtoken: 9.0.2
+    transitivePeerDependencies:
+      - encoding
+      - supports-color
+    dev: false
 
   /@polka/url@1.0.0-next.23:
     resolution: {integrity: sha512-C16M+IYz0rgRhWZdCmK+h58JMv8vijAA61gmz2rspCSwKwzBebpdcsiUmwrtJRdphuY30i6BSLEOP8ppbNLyLg==}
@@ -1306,17 +1317,6 @@ packages:
       - stylus
       - sugarss
     dev: true
-
-  /svelte-google-auth@0.7.2:
-    resolution: {integrity: sha512-19XZFpLRCdrEWw6u4I0Ofo0YDbbvVqdyTEbePXszg+2h1D/ojwjHhlW2PP1U6gmcE348kimwdxhwYgEJL+fNRw==}
-    dependencies:
-      cookie: 0.5.0
-      googleapis: 110.0.0
-      jsonwebtoken: 9.0.2
-    transitivePeerDependencies:
-      - encoding
-      - supports-color
-    dev: false
 
   /svelte-hmr@0.15.3(svelte@4.2.2):
     resolution: {integrity: sha512-41snaPswvSf8TJUhlkoJBekRrABDXDMdpNpT2tfHIv4JuhgvHqLMhEPGtaQn0BmbNSTkuz2Ed20DF2eHw0SmBQ==}

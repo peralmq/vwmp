@@ -22,7 +22,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"papaparse": "^5.4.1",
-		"svelte-google-auth": "^0.7.2"
+		"@peralmq/svelte-google-auth": "0.7.2",
+		"papaparse": "^5.4.1"
 	}
 }

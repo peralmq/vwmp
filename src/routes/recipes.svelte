@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { getGapiClient } from "svelte-google-auth/client";
+    import { getGapiClient } from "@peralmq/svelte-google-auth/client";
 
     const fetchRecipes = async () => {
         const client = await getGapiClient({
@@ -10,7 +10,7 @@
         });
         const response = await client.sheets.spreadsheets.values.get({
             spreadsheetId: "1DzSezvZN28j3AVraTwnnPYwCfRmKXOdccZJExJ4NvY8",
-            range: "Sheet1!A1:D3",
+            range: "RecipesDB!A1:D3",
         });
         const [header, ...rows]: string[][] = response.result.values;
         return rows.map((row) =>

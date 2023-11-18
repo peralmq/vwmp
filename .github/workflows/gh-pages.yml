@@ -29,6 +29,7 @@ jobs:
       - run: pnpm build
         env:
           VITE_GOOGLE_OAUTH2_CREDENTIALS: ${{ secrets.VITE_GOOGLE_OAUTH2_CREDENTIALS }}
+          VITE_AUTH_CALLBACK_URL_BASE: 'https://peralmq.github.io/vwmp/'
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:

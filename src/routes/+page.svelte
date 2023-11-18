@@ -1,6 +1,10 @@
 <script lang="ts">
     import { invalidateAll } from "$app/navigation";
-    import { signIn, signOut, initialize } from "svelte-google-auth/client";
+    import {
+        signIn,
+        signOut,
+        initialize,
+    } from "@peralmq/svelte-google-auth/client";
     import type { PageData } from "./$types.js";
     import Recipes from "./recipes.svelte";
 
