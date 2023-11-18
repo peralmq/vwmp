@@ -6,7 +6,7 @@ settings:
 
 dependencies:
   '@peralmq/svelte-google-auth':
-    specifier: 0.7.2
+    specifier: ^0.7.2
     version: 0.7.2
   papaparse:
     specifier: ^5.4.1
