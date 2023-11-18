@@ -26,8 +26,6 @@ jobs:
         with:
             version: 8
       - run: pnpm install --frozen-lockfile
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: pnpm build
         env:
           VITE_GOOGLE_OAUTH2_CREDENTIALS: ${{ secrets.VITE_GOOGLE_OAUTH2_CREDENTIALS }}
