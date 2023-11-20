@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@peralmq/svelte-google-auth':
-    specifier: ^0.7.2
-    version: 0.7.2
+    specifier: ^0.7.3
+    version: 0.7.3
   papaparse:
     specifier: ^5.4.1
     version: 5.4.1
@@ -305,8 +305,8 @@ packages:
       fastq: 1.15.0
     dev: true
 
-  /@peralmq/svelte-google-auth@0.7.2:
-    resolution: {integrity: sha512-AenctrMC+X6CWLqbXODMY/XBcXuD958/BEKpbYGTvaiZzVnkYppaPezfEfPNCxhXcIN9DUGyjnR2p/3dsTCBbQ==, tarball: https://npm.pkg.github.com/download/@peralmq/svelte-google-auth/0.7.2/4da7f05e9b09a8837a2ae31a4dac4d0a498d79d8}
+  /@peralmq/svelte-google-auth@0.7.3:
+    resolution: {integrity: sha512-f6yhWIJ+vNFw9erEYiEEFO+LX3yLYZ/D7gpf21Fwv9NaXHvGqDfn2u+qxHoG+tS3eIwrC+6mwhBht6Kr5awp4w==, tarball: https://npm.pkg.github.com/download/@peralmq/svelte-google-auth/0.7.3/0fbb72938a236634046ff67f404272d527c58610}
     dependencies:
       cookie: 0.5.0
       googleapis: 110.0.0
