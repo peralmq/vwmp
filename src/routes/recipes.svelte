@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { getGapiClient } from "@peralmq/svelte-google-auth/client";
+    import { getGapiClient } from "svelte-google-auth/client";
 
     const fetchRecipes = async () => {
         const client = await getGapiClient({

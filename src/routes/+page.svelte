@@ -4,7 +4,7 @@
         signIn,
         signOut,
         initialize,
-    } from "@peralmq/svelte-google-auth/client";
+    } from "svelte-google-auth/client";
     import type { PageData } from "./$types.js";
     import Recipes from "./recipes.svelte";
 
